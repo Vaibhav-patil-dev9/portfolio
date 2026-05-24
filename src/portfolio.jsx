@@ -6,159 +6,121 @@ import "./Portfolio.css";
 // ================================================================
 const ME = {
   name: "Vaibhav Patil",
-  title: "Java Full Stack Developer",
-  tagline: "I craft beautiful digital experiences.",
-  about:
-    "various technologies, including Java, SptingBoot, Hibernate , SQL , spring security , JWT  and database management. Eager to learn and apply new skills in building innovative web solutions.",
 
-  // My photo 
+  title: "Java Full Stack Developer",
+
+  tagline:
+    "Building secure, scalable and production-ready web applications.",
+
+  about:
+    "Computer Engineering graduate with hands-on experience building RESTful APIs using Spring Boot, Hibernate (JPA), MySQL, and Spring Security. Passionate about backend engineering and creating scalable web applications with clean architecture.",
+
   photo: "profile photo.jpg",
 
-  // My resume
   resumeUrl: "/vaibhav_patil_java_developer.pdf",
 
-  // ── SOCIAL LINKS ──────
   social: {
-    github:    "https://github.com/Vaibhav-patil-dev9",
-    linkedin:  "https://www.linkedin.com/in/vaibhav-patil-dev9/",
+    github: "https://github.com/Vaibhav-patil-dev9",
+    linkedin: "https://www.linkedin.com/in/vaibhav-patil-dev9/",
     instagram: "https://www.instagram.com/vaibhav__one8/",
-    twitter:   "https://x.com/vaibhav_dev9",
+    twitter: "https://x.com/vaibhav_dev9",
   },
 
-  // ── EDUCATION ───────────────
   education: [
     {
-      level:  "10th Grade",
-      school: "ILMV, Jamner",
-      board:  "MSBSHSE Board",
-      year:   "2019",
-      score:  "86.80%",
-      icon:   "🏫",
-    },
-    {
-      level:  "12th Grade",
-      school: "I.L.Jr.College , Jamner",
-      board:  "MSBSHSE Board",
-      year:   "2021",
-      score:  "83.33%",
-      icon:   "📚",
-    },
-    {
-      level:  "B.E — Computer Engineering",
-      school: "SIEM Mahiravani, Nashik",
-      board:  "Savitribai Phule Pune University",
-      year:   "2021 – 2025",
-      score:  "7.8 CGPA",
-      icon:   "🎓",
+      level: "B.E Computer Engineering",
+      school: "Sandip Institute of Engineering and Management",
+      year: "2021 – 2025",
+      score: "CGPA 7.8",
+      icon: "🎓",
     },
   ],
 
-  // ── EXPERIENCE ──────
   experience: [
     {
-      company: "Nexanova Protech",
-      role:    "Application Development Intern",
-      period:  "Jun 2025 – Dec 2025",
-      desc:    "Assisted in developing and maintaining software applications based on client requirements",
-      color:   "#00A4EF",
-      
+      company: "NexaNova ProTech",
+      role: "Application Development Intern",
+      period: "Jun 2025 – Dec 2025",
+      desc:
+        "Worked on application development, debugging, feature implementation and real-world software workflows.",
+      color: "#7c3aed",
     },
-    // {
-    //   company: 
-    //   role:    
-    //   period:  
-    //   desc:    
-    //   color:   "#FF6600",
-    // },
   ],
 
-  // ── SKILLS ────────────────────────────────────────────────────
-  // SKILLS
-skills: [
-  {
-    name: "Java",
-    level: 85,
-  },
-  {
-    name: "Spring Boot",
-    level: 82,
-  },
-  {
-    name: "Hibernate",
-    level: 90,
-  },
-  {
-    name: "JDBC",
-    level: 90,
-  },
-  {
-    name: "React.js",
-    level: 75,
-  },
-  {
-    name: "JavaScript",
-    level: 75,
-  },
-  {
-    name: "Spring Security",
-    level: 78,
-  },
-  {
-    name: "MySQL",
-    level: 80,
-  },
-  {
-    name: "HTML/CSS",
-    level: 80,
-  },
-  {
-    name: "REST APIs",
-    level: 82,
-  },
-],
+  skills: [
+    { name: "Java", level: 85 },
+    { name: "Spring Boot", level: 82 },
+    { name: "Spring Security", level: 78 },
+    { name: "Hibernate", level: 80 },
+    { name: "React.js", level: 75 },
+    { name: "JavaScript", level: 75 },
+    { name: "MySQL", level: 80 },
+    { name: "REST APIs", level: 82 },
+  ],
 
-  // ── PROJECTS ──────────────────────────────────────────────────
   projects: [
     {
-      title: "Blogging Platform – Secure Backend API",
-      desc:  "Built a secure blogging platform with authentication, role-based access control, and REST APIs using Spring Boot and MySQL.",
-      tags:  ["Java","SpringBoot", "Hibernate","React.js", "MySQL", "RestAPI"],
+      title: "📝 Blogging Platform",
+      desc:
+        "Built a secure blogging platform with JWT authentication, role-based access control and scalable REST APIs.",
+
+      tags: [
+        "Java",
+        "Spring Boot",
+        "JWT",
+        "Hibernate",
+        "MySQL",
+      ],
+
       color: "#ff6b35",
       emoji: "📝",
+      github: "https://github.com/Vaibhav-patil-dev9/blogging-app-backend",
+      live: "https://vaibhav-dev9-portfolio.vercel.app/", //change URL later
     },
+
     {
-      title: "Shopping Cart Web Application",
-      desc:  "Developed a full-stack shopping cart application with user authentication, product management, cart functionality, and order processing.",
-      tags:  ["Java","Servlet", "JSP","JDBC", "MySQL", "HTML","CSS"],
+      title: "🛒 Shopping Cart",
+
+      desc:
+        "Developed a shopping cart system with authentication, product management and order processing.",
+
+      tags: [
+        "Java",
+        "Servlet",
+        "JSP",
+        "JDBC",
+        "MySQL",
+      ],
+
       color: "#2dc761",
       emoji: "🛒",
+      github: "https://github.com/Vaibhav-patil-dev9/ShopKart-ecommerce-platform",
+      live: "https://vaibhav-dev9-portfolio.vercel.app/", // change URL later
+
     },
+
     {
-      title: "My Portfolio",
-      desc:  "My Portfolio is a modern personal web application. Focuses on a responsive UI and smooth user experience",
-      tags:  ["React,js", "JavaScript"],
+      title: "💼 Portfolio",
+
+      desc:
+        "Modern responsive portfolio with animations and deployment using React and Vercel.",
+
+      tags: [
+        "React",
+        "JavaScript",
+        "Vite",
+        "Vercel",
+      ],
+
       color: "#7c3aed",
       emoji: "💼",
+      github: "https://github.com/Vaibhav-patil-dev9/portfolio",
+      live: "https://vaibhav-dev9-portfolio.vercel.app/",
     },
-    // {
-    //   title: "WeatherNow",
-    //   desc:  "Beautiful weather dashboard with animated visualisations.",
-    //   tags:  ["React", "D3.js", "API"],
-    //   color: "#0ea5e9",
-    //   emoji: "🌤️",
-    // },
-    // {
-    //   title: "DevBlog",
-    //   desc:  "Markdown-powered blog engine with full CMS and dark mode.",
-    //   tags:  ["Next.js", "MDX", "Tailwind"],
-    //   color: "#10b981",
-    //   emoji: "✍️",
-    // },
   ],
 
   contact: {
-    email:    "vaibhav.patil.dev9@gmail.com",
-  
+    email: "vaibhav.patil.dev9@gmail.com",
   },
 };
 
@@ -264,9 +226,10 @@ function ScrollReveal({ children, delay = 0, style }) {
 
 function Portfolio() {
   const [activeSection, setActiveSection] = useState("home");
-  const [isDarkMode, setIsDarkMode]       = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const skillsRef     = useRef(null);
+  const skillsRef = useRef(null);
   const skillsVisible = useInView(skillsRef);
 
   const navItems = ["home", "about", "education", "experience", "skills", "projects", "contact"];
@@ -278,10 +241,10 @@ function Portfolio() {
 
   // Download the resume
   const downloadResume = () => {
-    const link      = document.createElement("a");
-    link.href       = ME.resumeUrl;
-    link.download   = `${ME.name.replace(" ", "_")}_Resume.pdf`;
-    link.target     = "_blank";
+    const link = document.createElement("a");
+    link.href = ME.resumeUrl;
+    link.download = `${ME.name.replace(" ", "_")}_Resume.pdf`;
+    link.target = "_blank";
     link.click();
   };
 
@@ -307,116 +270,144 @@ function Portfolio() {
     >
 
       {/* ── NAVBAR ──────────────────────────────────────────── */}
-      <nav className="navbar">
-        <div className="navbar-logo" onClick={() => scrollTo("home")}>VP</div>
+      {/* MODERN NAVBAR */}
 
-        <ul className="navbar-links">
+      <nav className="navbar">
+
+        <div
+          className="navbar-logo"
+          onClick={() => {
+            scrollTo("home");
+            setMenuOpen(false);
+          }}
+        >
+          VP
+        </div>
+
+        <div
+          className={`hamburger ${menuOpen ? "open" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul className={`navbar-links ${menuOpen ? "show" : ""}`}>
+
           {navItems.map((section) => (
+
             <li key={section}>
+
               <a
                 className={activeSection === section ? "active" : ""}
-                onClick={() => scrollTo(section)}
+                onClick={() => {
+                  scrollTo(section);
+                  setMenuOpen(false);
+                }}
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
               </a>
+
             </li>
+
           ))}
 
-          {/* Resume button
-          <li>
-            <button className="navbar-resume-btn" onClick={downloadResume}>
-              ⬇ Resume
-            </button>
-          </li> */}
         </ul>
+
       </nav>
 
       {/* ── HERO ────────────────────────────────────────────── */}
       <section id="home" className="hero-section">
-        <div className="hero-background-glow" />
+
+        <div className="hero-background-glow"></div>
 
         <div className="hero-inner">
 
-          {/* Left: text + buttons + social icons */}
-          <div>
-            <span className="hero-available-badge">✦ Available for work</span>
+          {/* LEFT */}
+          <div className="hero-content">
 
-            <h1 className="hero-name">
-              {ME.name.split(" ")[0]}
+            <span className="hero-badge">
+              🚀 Available for Full Stack Opportunities
+            </span>
+
+            <h1 className="hero-title">
+              Hi, I'm
               <br />
-              <span className="hero-name-gradient">
-                {ME.name.split(" ").slice(1).join(" ")}
+
+              <span className="hero-gradient">
+                {ME.name}
               </span>
             </h1>
 
-            <p className="hero-job-title">{ME.title}</p>
-            <p className="hero-tagline">{ME.tagline}</p>
+            <h2 className="hero-role">
+              {ME.title}
+            </h2>
 
-            {/* CTA Buttons */}
+            <p className="hero-description">
+              {ME.tagline}
+            </p>
+
             <div className="hero-buttons">
-              <button className="btn-primary" onClick={() => scrollTo("projects")}>
-                View My Work
+
+              <button
+                className="btn-primary"
+                onClick={() => scrollTo("projects")}
+              >
+                View Projects
               </button>
-              <button className="btn-outline" onClick={() => scrollTo("contact")}>
-                Get In Touch
+
+              <button
+                className="btn-outline"
+                onClick={downloadResume}
+              >
+                Download Resume
               </button>
-              <button className="btn-download-resume" onClick={downloadResume}>
-                 Download Resume
-              </button>
+
             </div>
 
-            {/* Social Icons */}
-            <div className="hero-social-links">
-              <a
-                href={ME.social.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon-link github"
-                title="GitHub"
-              >
-                <IconGitHub />
-              </a>
-              <a
-                href={ME.social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon-link linkedin"
-                title="LinkedIn"
-              >
-                <IconLinkedIn />
-              </a>
-              <a
-                href={ME.social.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon-link instagram"
-                title="Instagram"
-              >
-                <IconInstagram />
-              </a>
-              <a
-                href={ME.social.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon-link twitter"
-                title="X (Twitter)"
-              >
-                <IconTwitterX />
-              </a>
+            {/* STATS */}
+
+            <div className="hero-stats">
+
+              <div className="stat-box">
+                <h2>2+</h2>
+                <span>Projects</span>
+              </div>
+
+              <div className="stat-box">
+                <h2>1</h2>
+                <span>Internship</span>
+              </div>
+
+              <div className="stat-box">
+                <h2>10+</h2>
+                <span>Skills</span>
+              </div>
+
             </div>
+
           </div>
 
-          {/* Right: profile photo */}
+
+          {/* RIGHT */}
+
           <div className="hero-photo-wrapper">
+
             <div className="hero-photo-ring">
-              {ME.photo
-                ? <img src={ME.photo} alt={ME.name} className="hero-photo-img" />
-                : <div className="hero-photo-placeholder">👤</div>
-              }
+
+              <img
+                src={ME.photo}
+                alt={ME.name}
+                className="hero-photo-img"
+              />
+
             </div>
+
           </div>
 
         </div>
+
       </section>
 
       {/* ── ABOUT ───────────────────────────────────────────── */}
@@ -536,38 +527,111 @@ function Portfolio() {
 
       {/* ── PROJECTS ────────────────────────────────────────── */}
       <div id="projects" className="section-wrapper">
+
         <ScrollReveal>
-          <p className="section-label">Projects</p>
-          <h2 className="section-title">Things I've built</h2>
+
+          <p className="section-label">
+            Projects
+          </p>
+
+          <h2 className="section-title">
+            Featured Work
+          </h2>
+
           <div className="section-divider" />
+
         </ScrollReveal>
 
+
         <div className="projects-grid">
+
           {ME.projects.map((project, index) => (
-            <ScrollReveal key={project.title} delay={index * 0.1}>
-              <div className="project-card" style={{ "--card-accent-color": project.color }}>
-                <span className="project-emoji">{project.emoji}</span>
-                <h3 className="project-title">{project.title}</h3>
-                <p className="project-description">{project.desc}</p>
+
+            <ScrollReveal
+              key={project.title}
+              delay={index * 0.1}
+            >
+
+              <div
+                className="project-card-v2"
+              >
+
+                <div className="project-top">
+
+                  <div className="project-icon">
+                    {project.emoji}
+                  </div>
+
+                  <div>
+
+                    <h3>
+                      {project.title}
+                    </h3>
+
+                    <p>
+                      {project.desc}
+                    </p>
+
+                  </div>
+
+                </div>
+
+
                 <div className="project-tags">
+
                   {project.tags.map((tag) => (
+
                     <span
                       key={tag}
-                      className="project-tag"
-                      style={{
-                        background: `${project.color}18`,
-                        color:      project.color,
-                        border:     `1px solid ${project.color}33`,
-                      }}
+                      className="project-chip"
                     >
+
                       {tag}
+
                     </span>
+
                   ))}
+
                 </div>
+
+
+                <div className="project-actions">
+
+                  <button
+                    className="project-btn"
+                    onClick={() =>
+                      window.open(
+                        project.github,
+                        "_blank"
+                      )
+                    }
+                  >
+                    GitHub
+                  </button>
+
+
+                  <button
+                    className="project-btn-live"
+                    onClick={() =>
+                      window.open(
+                        project.live,
+                        "_blank"
+                      )
+                    }
+                  >
+                    Live Demo
+                  </button>
+
+                </div>
+
               </div>
+
             </ScrollReveal>
+
           ))}
+
         </div>
+
       </div>
 
       {/* ── CONTACT ─────────────────────────────────────────── */}
