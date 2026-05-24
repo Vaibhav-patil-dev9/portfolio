@@ -366,6 +366,44 @@ function Portfolio() {
 
             </div>
 
+            {/* SOCIAL LINKS */}
+
+            <div className="hero-socials">
+
+              <a
+                href={ME.social.github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconGitHub />
+              </a>
+
+              <a
+                href={ME.social.linkedin}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconLinkedIn />
+              </a>
+
+              <a
+                href={ME.social.instagram}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconInstagram />
+              </a>
+
+              <a
+                href={ME.social.twitter}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconTwitterX />
+              </a>
+
+            </div>
+
             {/* STATS */}
 
             <div className="hero-stats">
